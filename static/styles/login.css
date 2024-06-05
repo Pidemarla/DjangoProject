@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+    #user-tools {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    #user-tools form {
+        margin: 0;
+    }
+
+    #user-tools button {
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+    }

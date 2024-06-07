@@ -9,10 +9,10 @@ from django.contrib.auth.decorators import login_required
 # @login_required
 def index(request):
     
-    # dests = Destination.objects.all()
+    dests = Destination.objects.all()
 
-    # return render(request, 'index.html', {'dests' : dests})
-    return render(request, 'index.html')
+    return render(request, 'index.html', {'dests' : dests})
+    # return render(request, 'index.html', )
 
 def login(request):
     return render(request, 'login.html')
